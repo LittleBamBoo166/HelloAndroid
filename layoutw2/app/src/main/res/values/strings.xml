@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">layout-w2</string>
+    <string name="loss_password">Loss password?</string>
+    <string name="login">LOGIN</string>
+    <string name="name">Name</string>
+    <string name="follower_number">300</string>
+    <string name="follower_label">Followers</string>
+    <string name="friend_number">125</string>
+    <string name="friend_label">Friends</string>
+    <string name="profile_name">Phi Thuong</string>
+</resources>
