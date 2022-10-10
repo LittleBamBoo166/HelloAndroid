@@ -5,9 +5,17 @@
       <map>
         <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_button.xml" value="0.1885" />
         <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_edit_text.xml" value="0.1885" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_list_blue.xml" value="0.211" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_list_circle_blue.xml" value="0.211" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_list_circle_orange.xml" value="0.211" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_list_circle_purple.xml" value="0.211" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_list_orange.xml" value="0.211" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_list_purple.xml" value="0.211" />
         <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_purple.xml" value="0.1435" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_right_icon.xml" value="0.211" />
         <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/background_top.xml" value="0.162" />
         <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/drawable/wave.xml" value="0.1435" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/layout/activity_list.xml" value="0.2509057971014493" />
         <entry key="..\:/hoc-ky-122/AndroidStudioProjects/UserProfile083122/app/src/main/res/layout/activity_main.xml" value="0.152" />
       </map>
     </option>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".ListActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:weightSum="9"
+                android:id="@+id/list_item_1"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/background_list_purple"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/background_list_circle_purple"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="15dp"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="New Design - for 2018"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="bottom"
+                        android:paddingBottom="2dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Sed ut perspiciatis, undee"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="top"
+                        android:paddingTop="2dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/right"
+                        android:padding="15dp"
+                        app:tint="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="9"
+                android:id="@+id/list_item_2"
+                android:layout_below="@id/list_item_1"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/background_list_purple"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/background_list_circle_purple"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="15dp"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="New Design - for 2018"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="bottom"
+                        android:paddingBottom="2dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Sed ut perspiciatis, undee"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="top"
+                        android:paddingTop="2dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/right"
+                        android:padding="15dp"
+                        app:tint="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="9"
+                android:id="@+id/list_item_3"
+                android:layout_below="@id/list_item_2"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/background_list_blue"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/background_list_circle_blue"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="15dp"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="New Design - for 2018"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="bottom"
+                        android:paddingBottom="2dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Sed ut perspiciatis, undee"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="top"
+                        android:paddingTop="2dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/right"
+                        android:padding="15dp"
+                        app:tint="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="9"
+                android:id="@+id/list_item_4"
+                android:layout_below="@id/list_item_3"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/background_list_blue"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/background_list_circle_blue"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="15dp"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="New Design - for 2018"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="bottom"
+                        android:paddingBottom="2dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Sed ut perspiciatis, undee"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="top"
+                        android:paddingTop="2dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/right"
+                        android:padding="15dp"
+                        app:tint="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="9"
+                android:id="@+id/list_item_5"
+                android:layout_below="@id/list_item_4"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/background_list_orange"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/background_list_circle_orange"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="15dp"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="New Design - for 2018"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="bottom"
+                        android:paddingBottom="2dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Sed ut perspiciatis, undee"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="top"
+                        android:paddingTop="2dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/right"
+                        android:padding="15dp"
+                        app:tint="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="9"
+                android:id="@+id/list_item_6"
+                android:layout_below="@id/list_item_5"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/background_list_orange"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/background_list_circle_orange"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="15dp"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="New Design - for 2018"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="bottom"
+                        android:paddingBottom="2dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Sed ut perspiciatis, undee"
+                        android:textColor="#fff"
+                        android:textSize="17sp"
+                        android:gravity="top"
+                        android:paddingTop="2dp" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/right"
+                        android:padding="15dp"
+                        app:tint="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
