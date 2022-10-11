@@ -2,7 +2,10 @@ package com.example.crud_sinh_vien_101122;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+
+import com.example.crud_sinh_vien_101122.sqlite.DBHelper;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,5 +13,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        DBHelper dbHelper = new DBHelper(this);
+        SQLiteDatabase database = dbHelper.getReadableDatabase();
+        database.close();
     }
 }
