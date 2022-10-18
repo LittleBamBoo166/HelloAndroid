@@ -96,7 +96,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UsersAdapter
             super(itemView);
             tvPrefix = itemView.findViewById(R.id.prefix);
             tvUserName = itemView.findViewById(R.id.username);
-            imIcon = itemView.findViewById(R.id.imageView);
+//            imIcon = itemView.findViewById(R.id.imageView);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
