@@ -1,14 +1,14 @@
-package com.example.firebase_project;
+package com.example.policeofficermanager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class UpdateStudentActivity extends AppCompatActivity {
+public class PoliceListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update_student);
+        setContentView(R.layout.activity_police_list);
     }
 }
