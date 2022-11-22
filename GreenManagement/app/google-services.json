@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "995629922484",
+    "firebase_url": "https://police-officer-management-default-rtdb.firebaseio.com",
+    "project_id": "police-officer-management",
+    "storage_bucket": "police-officer-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995629922484:android:72bbd1b61f27d27818ffe1",
+        "android_client_info": {
+          "package_name": "com.example.greenmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995629922484-6rfouasen63gdco9fe520cfcho3hov6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMRB8_KM_HexFUBhA1JR-29ISGKcSCiPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995629922484-6rfouasen63gdco9fe520cfcho3hov6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

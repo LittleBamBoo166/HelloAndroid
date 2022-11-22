@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bg2"
+    android:layout_height="match_parent"
+    tools:context=".AddTreeActivity">
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/add_student_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@color/blue_700"
+            android:fontFamily="@font/mastery_kingdom_font"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="8dp"
+            android:text="Add Tree"
+            android:textColor="@color/pink_700"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/add_ten_thuong_goi"
+            android:layout_below="@id/add_student_text"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/border_pink_700_bottom"
+            android:layout_width="match_parent"
+            android:paddingHorizontal="10dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="@color/pink_700"
+            android:layout_height="60dp"
+            android:hint="Ten thuong goi"
+            android:textColorHint="@color/pink_500" />
+
+        <EditText
+            android:id="@+id/add_ten_khoa_hoc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/add_ten_thuong_goi"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/border_pink_700_bottom"
+            android:hint="Ten khoa hoc"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/pink_700"
+            android:textColorHint="@color/pink_500" />
+
+        <EditText
+            android:id="@+id/add_dac_tinh"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/add_ten_khoa_hoc"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/border_pink_700_bottom"
+            android:hint="Dac tinh"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/pink_700"
+            android:textColorHint="@color/pink_500" />
+
+        <EditText
+            android:id="@+id/add_mau_la"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/add_dac_tinh"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/border_pink_700_bottom"
+            android:hint="Mau la"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/pink_700"
+            android:textColorHint="@color/pink_500" />
+
+        <EditText
+            android:id="@+id/add_link_hinh_anh"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/add_mau_la"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/border_pink_700_bottom"
+            android:hint="Lien ket hinh anh"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/pink_700"
+            android:textColorHint="@color/pink_500" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_tree_material_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/add_link_hinh_anh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_blue_pink_gradient"
+            android:text="ADD"
+            app:backgroundTintMode="add" />
+    </RelativeLayout>
+
+</RelativeLayout>
