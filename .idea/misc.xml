@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/app/src/main/res/drawable/bg4.xml" value="0.23" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/app/src/main/res/drawable/bg_blue_pink_purple_gradient.xml" value="0.23" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/app/src/main/res/drawable/border_gradient_radius.xml" value="0.23" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/app/src/main/res/drawable/border_pink_700_bottom.xml" value="0.23" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/app/src/main/res/font/mastery_kingdom_font.xml" value="0.2875" />
         <entry key="..\:/hoc-ky-122/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.2033514492753623" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/app/src/main/res/layout/activity_police_list.xml" value="0.25833333333333336" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/app/src/main/res/layout/police_officer_item.xml" value="0.25833333333333336" />
       </map>
     </option>
   </component>
