@@ -3,12 +3,148 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".AlbumDetailFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="horizontal">
+
+        <View
+            android:background="#b312ec"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <View
+            android:background="#faf7f7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_album_item"
+                android:alpha="0.3"
+                app:tint="#77000000" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/bg_album_item"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgAlbum"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/album1" />
+
+        <LinearLayout
+            android:layout_marginLeft="125dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/album_name"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="EverMore"
+                android:textAllCaps="true"
+                android:gravity="bottom"
+                android:textColor="#000"
+                android:fontFamily="@font/bagife"
+                android:textSize="40sp"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:id="@+id/number_of_songs"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="9 songs"
+                android:textSize="15sp"
+                android:textColor="#989898"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/album_link"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="Album Link"
+                android:textSize="15sp"
+                android:textColor="@color/purple"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/album_id"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="invisible"
+                android:text="Album Id"
+                android:textColor="@color/purple" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/delete_album"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/black"
+            android:text="delete album" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_track"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/black"
+            android:text="add track" />
+
+    </LinearLayout>
+
+    <ListView
+        android:scrollbars="none"
+        android:layout_marginTop="260dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/track_list_view"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
 
 </FrameLayout>

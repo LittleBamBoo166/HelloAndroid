@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:padding="20dp"
     tools:context=".StudentListActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/student_list_text_view"
+        android:text="Student List"
+        android:textSize="35sp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/mastery_kingdom_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/group_button"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/student_list_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/add_student_button"
+            android:src="@drawable/ic_baseline_add_24"
+            app:tint="@color/white"
+            android:background="@drawable/bg_circle_60_gradient"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/student_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/group_button"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical" />
+</RelativeLayout>

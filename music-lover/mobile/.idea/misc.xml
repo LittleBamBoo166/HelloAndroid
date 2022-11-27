@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/bg_album_item.xml" value="0.2635" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/bg_right.xml" value="0.2635" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/btn_circle_bg.xml" value="0.1945" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/ic_baseline_add_30.xml" value="0.222" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.222" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.222" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.222" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/ic_baseline_edit_purple_24.xml" value="0.222" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.222" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.222" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/drawable/order_number_bg_circle.xml" value="0.1945" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/font/font_album.xml" value="0.2875" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/font/font_album_2.xml" value="0.2875" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/activity_album_list.xml" value="0.2033514492753623" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/activity_main.xml" value="0.2033514492753623" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/activity_sign_up.xml" value="0.25833333333333336" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/fragment_add_album.xml" value="0.264" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/fragment_add_track.xml" value="0.264" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/fragment_album_detail.xml" value="0.2033514492753623" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/fragment_home.xml" value="0.2033514492753623" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/fragment_profile.xml" value="0.25833333333333336" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/fragment_track_update.xml" value="0.25833333333333336" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/fragment_update_profile.xml" value="0.25833333333333336" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/list_album_item.xml" value="0.2033514492753623" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/layout/list_track_item.xml" value="0.2033514492753623" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25729166666666664" />
+        <entry key="..\:/hoc-ky-122/AndroidStudioProjects/music-lover/mobile/app/src/main/res/menu/menu.xml" value="0.25833333333333336" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

@@ -3,12 +3,153 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="horizontal">
+
+        <View
+            android:background="#b312ec"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <View
+            android:background="#faf7f7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_album_item"
+                android:alpha="0.3"
+                app:tint="#77000000" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/bg_album_item"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgAlbum"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/taylor" />
+
+
+        <LinearLayout
+            android:layout_marginLeft="125dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile_singer_name"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="Taylor Swift"
+                android:textAllCaps="true"
+                android:gravity="bottom"
+                android:textColor="#000"
+                android:fontFamily="@font/bagife"
+                android:textSize="35sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/number_of_albums"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="9 albums"
+                android:textSize="15sp"
+                android:textColor="#989898"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/profile_place"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/ic_baseline_place_24"
+            android:drawablePadding="7dp"
+            android:textColor="#989898"/>
+
+        <TextView
+            android:id="@+id/year_active"
+            android:layout_below="@id/profile_place"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year active"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/ic_baseline_mic_24"
+            android:drawablePadding="7dp"
+            android:textColor="#989898"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/update_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/year_active"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/black"
+            android:text="Update Profile" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:text="LOG OUT" />
+
+    </RelativeLayout>
 
 </FrameLayout>

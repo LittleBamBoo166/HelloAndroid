@@ -1,6 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ac9393">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_album_item"
+                android:alpha="0.3"
+                app:tint="#77000000" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/bg_album_item" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/track_order"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="10dp"
+            android:text="1"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:background="@drawable/order_number_bg_circle"/>
+
+        <TextView
+            android:id="@+id/track_id"
+            android:visibility="invisible"
+            android:text="track id"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <RelativeLayout
+            android:id="@+id/moveToAlbumDetail"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/btn_circle_bg"
+                android:alpha="0.1"
+                app:tint="#77000000"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/btn_circle_bg"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_delete_24"
+                android:padding="15dp"
+                app:tint="@color/purple"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/track_name"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="EverMore"
+                android:gravity="bottom"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:id="@+id/track_length"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="9 songs"
+                android:textSize="15sp"
+                android:textColor="#989898"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/song_writer"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="Song writers"
+                android:textSize="15sp"
+                android:textColor="#989898"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
